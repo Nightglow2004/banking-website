@@ -94,7 +94,7 @@ function login() {
         localStorage.setItem("loginEmail", email);
         localStorage.setItem("password", password);
         alert("Logged in successfully!");
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     }
 }
 
