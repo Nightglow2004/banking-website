@@ -1,0 +1,12 @@
+.gallery-wrap img {
+  width: 50px;
+  cursor: pointer;
+  margin: 0 40px;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}

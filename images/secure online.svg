@@ -1,0 +1,23 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="68" height="68" rx="34" fill="url(#paint0_linear_116_11304)" fill-opacity="0.05"/>
+<rect x="8" y="8" width="52" height="52" rx="26" fill="url(#paint1_linear_116_11304)" fill-opacity="0.1"/>
+<rect x="8.5" y="8.5" width="51" height="51" rx="25.5" stroke="url(#paint2_linear_116_11304)" stroke-opacity="0.2"/>
+<path d="M28 25C26.3431 25 25 26.3431 25 28V30.25C25 31.9069 26.3431 33.25 28 33.25H30.25C31.9069 33.25 33.25 31.9069 33.25 30.25V28C33.25 26.3431 31.9069 25 30.25 25H28Z" fill="#CAFF33"/>
+<path d="M37.75 25C36.0931 25 34.75 26.3431 34.75 28V30.25C34.75 31.9069 36.0931 33.25 37.75 33.25H40C41.6569 33.25 43 31.9069 43 30.25V28C43 26.3431 41.6569 25 40 25H37.75Z" fill="#CAFF33"/>
+<path d="M28 34.75C26.3431 34.75 25 36.0931 25 37.75V40C25 41.6569 26.3431 43 28 43H30.25C31.9069 43 33.25 41.6569 33.25 40V37.75C33.25 36.0931 31.9069 34.75 30.25 34.75H28Z" fill="#CAFF33"/>
+<path d="M39.625 35.5C39.625 35.0858 39.2892 34.75 38.875 34.75C38.4608 34.75 38.125 35.0858 38.125 35.5V38.125H35.5C35.0858 38.125 34.75 38.4608 34.75 38.875C34.75 39.2892 35.0858 39.625 35.5 39.625H38.125V42.25C38.125 42.6642 38.4608 43 38.875 43C39.2892 43 39.625 42.6642 39.625 42.25V39.625H42.25C42.6642 39.625 43 39.2892 43 38.875C43 38.4608 42.6642 38.125 42.25 38.125H39.625V35.5Z" fill="#CAFF33"/>
+<defs>
+<linearGradient id="paint0_linear_116_11304" x1="34" y1="0" x2="34" y2="68" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CAFF33"/>
+<stop offset="1" stop-color="#CAFF33" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_116_11304" x1="34" y1="-26.4324" x2="34" y2="142.216" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CAFF33"/>
+<stop offset="0.467671" stop-color="#CAFF33" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_116_11304" x1="34" y1="-82.2973" x2="34" y2="107.081" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CAFF33"/>
+<stop offset="0.716291" stop-color="#CAFF33" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
