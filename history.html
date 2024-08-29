@@ -8,50 +8,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="index.js" defer></script>
     <script src="authentication.js" defer></script>
-
-    <script>
-        function displayTransactions(filter = 'all') {
-            const transactions = JSON.parse(localStorage.getItem('transactions')) || [];
-            const transactionList = document.getElementById('transactionList');
-            transactionList.innerHTML = '';
-
-            const filteredTransactions = filter === 'all' ? transactions : transactions.filter(t => t.type === filter);
-
-            filteredTransactions.forEach(transaction => {
-                const transactionItem = document.createElement('div');
-                transactionItem.classList.add('transaction-item');
-                
-                if (transaction.type === 'send') {
-                    transactionItem.innerHTML = `
-                        <p>Type: Send</p>
-                        <p>Sender: ${transaction.details.senderName}</p>
-                        <p>Sender Account: ${transaction.details.senderAccount}</p>
-                        <p>Receiver Account: ${transaction.details.receiverAccount}</p>
-                        <p>Amount: Rs.${transaction.details.amount}</p>
-                        <p>Date: ${new Date(transaction.date).toLocaleString()}</p>
-                    `;
-                } else if (transaction.type === 'withdraw') {
-                    transactionItem.innerHTML = `
-                        <p>Type: Withdraw</p>
-                        <p>Amount: Rs.${transaction.details.amount}</p>
-                        <p>Date: ${new Date(transaction.date).toLocaleString()}</p>
-                    `;
-                } else if (transaction.type === 'deposit') {
-                    transactionItem.innerHTML = `
-                        <p>Type: Deposit</p>
-                        <p>Amount: Rs.${transaction.details.amount}</p>
-                        <p>Date: ${new Date(transaction.date).toLocaleString()}</p>
-                    `;
-                }
-
-                transactionList.appendChild(transactionItem);
-            });
-        }
-
-        window.onload = function() {
-            displayTransactions();
-        }
-    </script>
 </head>
 <body class="bg-black">
     <!-- Task Bar -->
