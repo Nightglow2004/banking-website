@@ -1,4 +1,4 @@
-# LV SWISS Bank
+# LV SWISS BANK
 
 A modern banking website with a clean UI, featuring login, signup, transactions, deposits, withdrawals, and a security showcase page.
 
